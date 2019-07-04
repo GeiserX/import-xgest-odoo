@@ -1,0 +1,9 @@
+{
+    "path" : "~/import-xgest-odoo",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
