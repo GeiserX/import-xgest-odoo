@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7B1FA2"/>
+      <stop offset="100%" style="stop-color:#1A1A2E"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="200" rx="12" fill="url(#bg)"/>
+  <!-- Subtle grid -->
+  <g stroke="white" stroke-width="0.5" opacity="0.04">
+    <line x1="0" y1="40" x2="900" y2="40"/><line x1="0" y1="80" x2="900" y2="80"/>
+    <line x1="0" y1="120" x2="900" y2="120"/><line x1="0" y1="160" x2="900" y2="160"/>
+    <line x1="150" y1="0" x2="150" y2="200"/><line x1="300" y1="0" x2="300" y2="200"/>
+    <line x1="450" y1="0" x2="450" y2="200"/><line x1="600" y1="0" x2="600" y2="200"/>
+    <line x1="750" y1="0" x2="750" y2="200"/>
+  </g>
+  <!-- Two database cylinders with arrow -->
+  <g transform="translate(100, 100)" fill="none" stroke="white" stroke-width="2.5" opacity="0.9">
+    <!-- Left cylinder (Xgest) -->
+    <ellipse cx="-25" cy="-20" rx="16" ry="6" fill="white" fill-opacity="0.15"/>
+    <ellipse cx="-25" cy="-20" rx="16" ry="6"/>
+    <line x1="-41" y1="-20" x2="-41" y2="10"/>
+    <line x1="-9" y1="-20" x2="-9" y2="10"/>
+    <ellipse cx="-25" cy="10" rx="16" ry="6"/>
+    <!-- Right cylinder (Odoo) -->
+    <ellipse cx="25" cy="-20" rx="16" ry="6" fill="white" fill-opacity="0.15"/>
+    <ellipse cx="25" cy="-20" rx="16" ry="6"/>
+    <line x1="9" y1="-20" x2="9" y2="10"/>
+    <line x1="41" y1="-20" x2="41" y2="10"/>
+    <ellipse cx="25" cy="10" rx="16" ry="6"/>
+    <!-- Arrow between -->
+    <line x1="-5" y1="25" x2="5" y2="25" stroke-linecap="round"/>
+    <polygon points="8,25 2,21 2,29" fill="white"/>
+  </g>
+  <!-- Title -->
+  <text x="450" y="85" text-anchor="middle" fill="white" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="bold">import-xgest-odoo</text>
+  <!-- Subtitle -->
+  <text x="450" y="115" text-anchor="middle" fill="white" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" opacity="0.8">Migration scripts between Xgest and Odoo ERPs</text>
+  <!-- Decorative dots right -->
+  <g fill="white" opacity="0.1">
+    <circle cx="810" cy="40" r="3"/><circle cx="830" cy="40" r="3"/><circle cx="850" cy="40" r="3"/>
+    <circle cx="810" cy="60" r="3"/><circle cx="830" cy="60" r="3"/><circle cx="850" cy="60" r="3"/>
+    <circle cx="810" cy="80" r="3"/><circle cx="830" cy="80" r="3"/><circle cx="850" cy="80" r="3"/>
+    <circle cx="810" cy="140" r="3"/><circle cx="830" cy="140" r="3"/><circle cx="850" cy="140" r="3"/>
+    <circle cx="810" cy="160" r="3"/><circle cx="830" cy="160" r="3"/><circle cx="850" cy="160" r="3"/>
+  </g>
+</svg>
