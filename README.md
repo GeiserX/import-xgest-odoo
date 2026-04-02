@@ -3,7 +3,7 @@
 <h1 align="center">import-xgest-odoo</h1>
 
 <p align="center">
-  <a href="LICENSE.md"><img src="https://img.shields.io/github/license/GeiserX/import-xgest-odoo" alt="License"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/GeiserX/import-xgest-odoo" alt="License"/></a>
 </p>
 
 <p align="center"><strong>Migration scripts between Xgest and Odoo ERPs</strong></p>
@@ -18,4 +18,4 @@ Helping script to ease the transition between both ERPs.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details
